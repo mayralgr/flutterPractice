@@ -1,0 +1,25 @@
+int main()
+{
+  final superman = new Heroe();
+  superman.nombre = 'Clark';
+  final lex = new  Villano();
+  lex.nombre = 'luthor';
+  print(superman);
+}
+
+abstract class Personaje
+{
+  
+  String poder;
+  String nombre;
+  
+}
+class Heroe extends Personaje
+{
+  int valentia;
+}
+
+class Villano extends Personaje
+{
+  int maldad;
+}

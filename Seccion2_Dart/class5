@@ -1,0 +1,11 @@
+void main() {
+  Map<String, dynamic> persona = {
+    'nombre': 'Carlos',
+    'edad': 32,
+    'soltero': true
+  };
+  String propiedad = 'soltero';
+  print(persona['nombre']);
+  print(persona['edad']);
+  print(persona[propiedad]);
+}

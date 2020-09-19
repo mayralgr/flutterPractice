@@ -1,0 +1,12 @@
+void main()
+{
+  print('hola mundo');
+  
+  
+  print('hola Juan');
+  
+  String nombre = 'V';
+  print('Hola $nombre');
+  
+  
+}

@@ -1,0 +1,21 @@
+void main() {
+
+  final wolverine = new Heroe('Logan', 'regeneración');
+  print(wolverine);
+  
+}
+
+class Heroe{
+  
+  String nombre;
+  String poder;
+  
+  Heroe(String nombre, String poder)
+  {
+    this.nombre = nombre;
+    this.poder = poder;
+  }
+  
+  String toString()=> 'nombre: $nombre - poder: $poder';
+  
+}
